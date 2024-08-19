@@ -34,6 +34,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,6 +48,10 @@
     <Compile Include="CalculatorService\CalculatorServiceProvider.cs" />
     <Compile Include="CalculatorService\CalculatorServiceProviderBase.cs" />
     <Compile Include="CalculatorService\Reference.cs" />
+    <Compile Include="CountryInfoService\CountryInfoService.cs" />
+    <Compile Include="CountryInfoService\CountryInfoServiceProviderBase.cs" />
+    <Compile Include="CountryInfoService\CountryInfoServiceProvider.cs" />
+    <Compile Include="CountryInfoService\Reference.cs" />
     <Compile Include="DataProviderConfigurationSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ServiceProviderBase.cs" />
